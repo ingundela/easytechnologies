@@ -52,34 +52,53 @@ img{
 
 /*-- Start Navigation bar--*/
 
-.navbar-brand img{
-  position: relative;
+.navbar {
+  background: transparent;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.navbar-brand{
+  width: 130px;
+}
+
+.navbar i{
+  font-size: 1.4rem;
+}
+.navbar button {
+  color: inherit !important;
+}
+
+.navbar.compressed {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #005299;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); 
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: #cccccc!important;
     font-weight: 400;
     text-transform: uppercase;
-    margin-right: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
   color: #fff!important;
   -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
 
-}
-
-.nav.black{
-  background-color: rgba(0, 0, 0, .5);
-  height: 80px;
-  padding: 10px 50px;
 }
 
 .navbar-light .navbar-nav .active{
     color: #fff!important;
+}
+
+.navbar-light .navbar-nav .nav-item{
+    padding-right: 5px !important;
 }
 
 
@@ -151,7 +170,7 @@ img{
 /*--quem somos--*/
 
 .quemsomos{
-  padding: 120px 0;
+  padding: 140px 0;
   
 }
 
@@ -254,7 +273,7 @@ img{
 
 .break i{
   font-size: 3rem;
-  color: #336699;
+  color: #ff6600;
 }
 
 .break h4{
@@ -373,3 +392,6 @@ img{
 .ivan a{
   color: #999999;
 }
+
+
+
